@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CristhianA98/rickandmorty-app/static/css/main.0febfc2c.css",
+    "main.js": "/CristhianA98/rickandmorty-app/static/js/main.dfea18ed.js",
+    "index.html": "/CristhianA98/rickandmorty-app/index.html",
+    "main.0febfc2c.css.map": "/CristhianA98/rickandmorty-app/static/css/main.0febfc2c.css.map",
+    "main.dfea18ed.js.map": "/CristhianA98/rickandmorty-app/static/js/main.dfea18ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0febfc2c.css",
+    "static/js/main.dfea18ed.js"
+  ]
+}
