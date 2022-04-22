@@ -8,8 +8,8 @@ export const AppRouter = () => {
     return (
         <BrowserRouter>
             <Navbar/>
-            <Routes>
-                <Route path="/dashboard" element={<MainScreen />} />
+            <Routes basename={process.env.PUBLIC_URL}>
+                <Route  path="/dashboard" element={<MainScreen />} />
                 <Route path="/personaje/:id" element={<PersonajeInfo />} />
                 <Route index element={<MainScreen />} />
                 <Route path="*" element={<PageNotFound />} />
