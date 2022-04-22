@@ -9,8 +9,8 @@ export const AppRouter = () => {
         <BrowserRouter>
             <Navbar/>
             <Routes>
-                <Route path="dashboard" element={<MainScreen />} />
-                <Route path="personaje/:id" element={<PersonajeInfo />} />
+                <Route path="/dashboard" element={<MainScreen />} />
+                <Route path="/personaje/:id" element={<PersonajeInfo />} />
                 <Route index element={<MainScreen />} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes>
